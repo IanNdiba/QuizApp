@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images_background"
+    tools:context="com.example.ian.quizapp.MainActivity">
+
+    <!---heading textview with marquee effect-->
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/heading"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="16sp" />
+
+    <!--main LinearLayout view-->
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:orientation="horizontal">
+
+        <!--1st LinearLayout view-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!--android LinearLayout view-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--android image view-->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/android"
+                    android:padding="8dp"
+                    android:src="@drawable/android" />
+
+                <!--android button-->
+                <Button
+                    android:id="@+id/androidButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/quiz"
+                    android:textColor="@color/purple"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!--python LinearLayout view-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <!--pythonimage view-->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/python"
+                    android:padding="8dp"
+                    android:src="@drawable/python" />
+
+                <!--python button-->
+                <Button
+                    android:id="@+id/pythonButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/quiz"
+                    android:textColor="@color/purple"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <!--2nd LinearLayout view-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!--java LinearLayout view-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--java image view-->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/java"
+                    android:padding="8dp"
+                    android:src="@drawable/java_logo" />
+
+                <!--java button-->
+                <Button
+                    android:id="@+id/javaButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/quiz"
+                    android:textColor="@color/purple"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!--web LinearLayout view-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <!--webimage view-->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/web"
+                    android:padding="8dp"
+                    android:src="@drawable/webdev" />
+
+                <!--web button-->
+                <Button
+                    android:id="@+id/webButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/quiz"
+                    android:textColor="@color/purple"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

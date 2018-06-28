@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="androidName">ANDROID Exercises</string>
+    <string name="android">ANDROID</string>
+    <string name="javaName">JAVA Exercises</string>
+    <string name="java">JAVA</string>
+    <string name="webName">WEB Exercises</string>
+    <string name="web">WEB</string>
+    <string name="pythonName">PYTHON Exercises</string>
+    <string name="python">PYTHON</string>
+    <string name="quiz">QUIZ</string>
+    <string name="heading">Programming is the future of innovation</string>
+    <string name="footer">Simple Programming Practices To Help User Understand The Basics Of Programming</string>
+    <string name="sendComment">SEND</string>
+    <string name="commentHint">Enter your comment in this section</string>
+    <string name="submitButton">SUBMIT</string>
+
+    <!--Questions-->
+    <string name="question1">Question One</string>
+    <string name="question2">Question Two</string>
+    <string name="question3">Question Three</string>
+    <string name="question4">Question Four</string>
+
+    <!--ANDROID QUESTIONS -->
+    <string name="androidQues1">Which of the following is an example of an intent?</string>
+    <string name="androidQues2">Which languages does android not support to develop applications?</string>
+    <string name="androidQues3">What is the code used to find a view element in android?</string>
+    <string name="androidQues4">Which of the following is a common use case for using intent?</string>
+    <!--checkboxes data-->
+    <string name="androidCheckBox1">Explicit Intent</string>
+    <string name="androidCheckBox2">Activity Intent</string>
+    <string name="androidCheckBox3">Implicit Intent</string>
+    <string name="androidCheckBox4">View Intent</string>
+    <!--radio button data-->
+    <string name="androidRadioButton1">Java</string>
+    <string name="androidRadioButton2">C/C++</string>
+    <string name="androidRadioButton3">Kotlin</string>
+    <string name="androidRadioButton4">Php</string>
+    <!--radio buttons data-->
+    <string name="androidRadioButton5">toString()</string>
+    <string name="androidRadioButton6">findViewById()</string>
+    <string name="androidRadioButton7">setOnClickListener()</string>
+    <string name="androidRadioButton8">startActivity()</string>
+    <!--checkboxes data-->
+    <string name="androidCheckBox5">To start an activity</string>
+    <string name="androidCheckBox6">To start a service</string>
+    <string name="androidCheckBox7">To deliver a broadcast</string>
+    <string name="androidCheckBox8">To listen to button clicks</string>
+
+    <!--JAVA QUESTIONS-->
+    <string name="javaQues1">What is a class?</string>
+    <string name="javaQues2">Which of the following is not an OOP concept?</string>
+    <string name="javaQues3">What are the different types of access modifiers?</string>
+    <string name="javaQues4">What is meant by OOP?</string>
+    <!--radio buttons data-->
+    <string name="javaRadioButton1">Characteristics of an object</string>
+    <string name="javaRadioButton2">An instance of an object</string>
+    <string name="javaRadioButton3">Set of objects that share common structure and behaviour</string>
+    <string name="javaRadioButton4">An interface</string>
+    <!--radio buttons data-->
+    <string name="javaRadioButton5">Data structures</string>
+    <string name="javaRadioButton6">Polymorphism</string>
+    <string name="javaRadioButton7">Encapsulation</string>
+    <string name="javaRadioButton8">Abstraction</string>
+    <!--checkboxes data-->
+    <string name="javaCheckBox1">Private</string>
+    <string name="javaCheckBox2">Visible</string>
+    <string name="javaCheckBox3">Public</string>
+    <string name="javaCheckBox4">Protected</string>
+    <!--radio buttons data-->
+    <string name="javaRadioButton9">Programming method where programs are organized as objects</string>
+    <string name="javaRadioButton10">Characteristics of an object</string>
+
+    <!--PYTHON QUESTIONS-->
+    <string name="pythonQues1">Is python a scripting language?</string>
+    <string name="pythonQues2">Is python a case sensitive language?</string>
+    <string name="pythonQues3">What are the supported data types in python?</string>
+    <string name="pythonQues4">What is the purpose of break statement in python?</string>
+    <!--radio button data-->
+    <string name="pythonRadioButton1">Yes</string>
+    <string name="pythonRadioButton2">No</string>
+    <!--checkboxes data-->
+    <string name="pythonCheckBox1">Numbers</string>
+    <string name="pythonCheckBox2">String</string>
+    <string name="pythonCheckBox3">List</string>
+    <string name="pythonCheckBox4">Tuple</string>
+    <string name="pythonCheckBox5">Styling</string>
+    <!--radio button data-->
+    <string name="pythonRadioButton3">Evaluates the loop as true or false</string>
+    <string name="pythonRadioButton4">Causes the loop to skip the remaining program body</string>
+    <string name="pythonRadioButton5">Terminates a loop statement</string>
+    <string name="pythonRadioButton6">Causes syntax error</string>
+
+    <!--WEB DEVELOPMENT QUESTIONS-->
+    <string name="webQues1">What type of programming language is PHP?</string>
+    <string name="webQues2">Which one of the following languages is not used in web development?</string>
+    <string name="webQues3">Which one of the following is not a styling language in web development?</string>
+    <string name="webQues4">Which of the following is used as a server-side programming language?</string>
+    <!--radio button data-->
+    <string name="webRadioButton1">Procedural language</string>
+    <string name="webRadioButton2">Scripting Language</string>
+    <string name="webRadioButton3">Object Orient language</string>
+    <string name="webRadioButton4">HTML</string>
+    <string name="webRadioButton5">CSS</string>
+    <string name="webRadioButton6">Javascript</string>
+    <string name="webRadioButton7">Kotlin</string>
+    <string name="webRadioButton8">C++</string>
+    <string name="webRadioButton9">Bootstrap</string>
+    <string name="webRadioButton10">Jquery</string>
+    <string name="webRadioButton11">CSS</string>
+    <string name="webRadioButton12">CSS</string>
+    <string name="webRadioButton13">HTML</string>
+    <string name="webRadioButton14">PHP</string>
+    <string name="webRadioButton15">AngularJS</string>
+</resources>
