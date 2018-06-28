@@ -26,3 +26,9 @@ Dependencies are available for download via the Android SDK Manager.
 
 Android Studio is available for download at:
 http://developer.android.com/sdk/installing/studio.html
+
+
+APK Link
+-------------
+To get a sample of the generated apk click on the below link
+http://bit.ly/2tClk4q
